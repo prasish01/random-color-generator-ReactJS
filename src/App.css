@@ -1,4 +1,4 @@
-/* App.css */
+
 
 body,
 html {
@@ -13,14 +13,14 @@ html {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Keeps everything centered vertically */
+  justify-content: center; 
   align-items: center;
   background-color: #000;
 }
 
 #button-container {
   position: absolute;
-  top: 30px; /* Position buttons near the top */
+  top: 30px; 
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -48,27 +48,27 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 100px; /* Spacious padding for the content */
+  padding: 60px 100px; 
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   text-align: center;
   color: #fff;
-  margin-top: 20px; /* Small margin to give room between sections */
+  margin-top: 20px; 
 }
 
 .color-info h3 {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 10px;
-  letter-spacing: 1.5px; /* Slight spacing for clean look */
+  letter-spacing: 1.5px;
 }
 
 .color-info h1 {
   font-size: 80px;
   margin: 15px 0;
   font-weight: 700;
-  letter-spacing: 3px; /* More spacing for visual clarity */
+  letter-spacing: 3px;
 }
 
 .color-info .type-label {
