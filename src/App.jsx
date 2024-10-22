@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css"; // Import the CSS file
+import "./App.css"; 
 
 export default function App() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
@@ -31,7 +31,6 @@ export default function App() {
 
   return (
     <div id="app-container" style={{ backgroundColor: color }}>
-      {/* Buttons for color selection */}
       <div id="button-container">
         <button onClick={() => setTypeOfColor("hex")}>Create HEX Color</button>
         <button onClick={() => setTypeOfColor("rgb")}>Create RGB Color</button>
@@ -43,8 +42,6 @@ export default function App() {
           Generate Random Color
         </button>
       </div>
-
-      {/* Color display */}
       <div className="color-info">
         <div className="type-label">
           {typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}
