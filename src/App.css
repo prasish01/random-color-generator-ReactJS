@@ -1,0 +1,78 @@
+/* App.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+#app-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Keeps everything centered vertically */
+  align-items: center;
+  background-color: #000;
+}
+
+#button-container {
+  position: absolute;
+  top: 30px; /* Position buttons near the top */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+  transform: translateY(-2px);
+}
+
+.color-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px; /* Spacious padding for the content */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  margin-top: 20px; /* Small margin to give room between sections */
+}
+
+.color-info h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px; /* Slight spacing for clean look */
+}
+
+.color-info h1 {
+  font-size: 80px;
+  margin: 15px 0;
+  font-weight: 700;
+  letter-spacing: 3px; /* More spacing for visual clarity */
+}
+
+.color-info .type-label {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ddd;
+}
